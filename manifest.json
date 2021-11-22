@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
 
-    "name": "方糖扩展原型",
-    "description": "一个简单的Chrome扩展原型，可添加功能后使用。插件 Logo 图案由 https://thenounproject.com/monstercritic 绘制，按 CC 协议使用。",
+    "name": "Mooc优化插件",
+    "description": "Mooc优化插件，主要去除一些广告",
     "version": "1.0",
 
     "permissions": [
@@ -22,16 +22,13 @@
     "web_accessible_resources": [
         "logo.png"
     ]
-    /*
     ,
     "content_scripts": [
         {
-            // 当域名匹配时，加载的 js 和 css
-             "matches": ["http://weibo.com/*","http://www.weibo.com/*","https://weibo.com/*","https://www.weibo.com/*"],
-             "css": ["app.css"],
-             "js": ["jquery-3.2.1.min.js","app.js"]
+             "matches": ["https://www.icourse163.org/*"],
+             "css": ["app.css", "bootstrap.min.css"],
+             "js": ["jquery-3.2.1.min.js","app.js", "bootstrap.bundle.min.js"]
         }
     ]
-    */
     
 }

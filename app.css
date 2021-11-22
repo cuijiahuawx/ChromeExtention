@@ -1,9 +1,25 @@
-/* #v6_pl_rightmod_attfeed
+/*右下角推广、反馈、下载,直播, 排行,评价,MOOC推荐*/
+#j-activityRightBanner, .side-service-item, .side-service-item, #app > div > div > div:nth-child(3), #app > div > div > div:nth-child(6), #app > div > div > div:nth-child(7), .nlrFs
 {
 	display: none;
 }
-
-[id^="v6_pl_rightmod"]
+/*连续广告位*/
+#app > div > div > div:nth-child(n+12):nth-child(-n+16)
 {
 	display: none;
-} */
+}
+/*页面底部*/
+div._1n6gQ, div._1U0Cy, div._3N81_
+{
+	display: none;
+}	
+/*课程页面*/
+#j-fix-parent, #j-recommend-bottom, div.u-s-imgRec
+{
+	display: none;
+}	
+/*导航栏隐藏*/
+div.u-navLogin-cloud, div.u-navLogin-cloud, div.j-kaoyan-link, div._2_XXS
+{
+	display: none;
+}	
