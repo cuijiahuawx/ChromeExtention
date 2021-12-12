@@ -23,3 +23,8 @@ div.u-navLogin-cloud, div.u-navLogin-cloud, div.j-kaoyan-link, div._2_XXS
 {
 	display: none;
 }	
+/*顶部广告*/
+#j-activityBanner
+{
+	display: none;
+}	
