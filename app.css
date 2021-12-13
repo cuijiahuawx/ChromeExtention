@@ -14,14 +14,14 @@ div._1n6gQ, div._1U0Cy, div._3N81_
 	display: none;
 }	
 /*课程页面*/
-#j-fix-parent, #j-recommend-bottom, div.u-s-imgRec
+#communityTab, #j-fix-parent, #j-recommend-bottom, div.u-s-imgRec, #j-courseshare, #wxItemTab, #appTab, div.g-sd1 > div > p
 {
-	display: none;
+	display: none !important;
 }	
 /*导航栏隐藏*/
 div.u-navLogin-cloud, div.u-navLogin-cloud, div.j-kaoyan-link, div._2_XXS
 {
-	display: none;
+	display: none !important;
 }	
 /*顶部广告*/
 #j-activityBanner
