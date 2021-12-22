@@ -37,8 +37,8 @@
     "content_scripts": [
         {
              "matches": ["https://www.icourse163.org/*"],
-             "css": ["app.css", "bootstrap.min.css"],
-             "js": ["jquery-3.2.1.min.js","app.js", "bootstrap.bundle.min.js"]
+             "css": ["app.css"],
+             "js": ["jquery-3.2.1.min.js","app.js"]
         }
     ]
     
