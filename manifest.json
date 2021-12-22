@@ -3,6 +3,7 @@
     "name": "Mooc优化插件",
     "description": "Mooc优化插件，主要去除一些广告",
     "version": "1.0",
+    "default_locale": "zh_CN",
     "permissions": [
         "http://*/*","https://*/*",
         "tabs",
